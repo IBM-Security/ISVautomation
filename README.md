@@ -30,7 +30,7 @@ RET=$(curl -s -X POST https://${TENANT}/v1.0/endpoint/default/token -H 'Content-
 
 
 TOKEN=$(echo $RET  | jq -r .access_token)
-'''
+```
 
 
 # License
